@@ -20,12 +20,13 @@ export class Model {
     items;
 
       constructor() {
-          this.user = "Adams",
+          this.user = "B4EVA",
           this.items = [new TodoItems("Buy Flowers", false),
                         new TodoItems("Get shoes", false),
-                        new TodoItems("Buy tickets", true),
+                        new TodoItems("Buy tickets", false),
                         new TodoItems("Call Roy", false),
-                        new TodoItems("Run away from house", false)]
+                        new TodoItems("Run away from house", false),
+                        new TodoItems("DryClean Rooms",false)]
       }
 }
  export class TodoItems{
@@ -34,7 +35,7 @@ export class Model {
 
      constructor(action, done){
          this.action = action;
-         this.done = done 
+         this.done = done
         }
       
  }
